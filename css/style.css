@@ -1,0 +1,80 @@
+body {
+    background: #C0CCE2 url("../images/wal2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+.container {
+    padding: 15px;
+}
+h3 {
+    font-family: 'Rock Salt', cursive;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    transition: 0.15s;
+    font-family: 'Marck Script', cursive;
+    font-size: 28px;
+    box-shadow: 1px 2px 2px #b6b6b6;
+}
+.btn:hover {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.btn:active {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);  
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+}
+button .badge {
+    background: #F1F6FF;
+    color: black;
+}
+button i.fa {
+    font-size: 30px;
+}
+#label-rock {
+    background-color: #968661;
+}
+#label-paper {
+    background-color: #E3D8C0;
+}
+#label-scissors {
+    background-color: #707D96;
+}
+#js-playerName, #js-computerName {
+    font-weight: bold;
+}
+#js-playerPoints, #js-computerPoints {
+    font-size: 22px;
+    background: #F1F6FF;
+    color: black;
+}
+#js-resultsTableElement {
+    font-family: 'Lato', sans-serif;
+}
+#js-playerPick_rock {
+    background-color: #968661;
+}
+#js-playerPick_paper {
+    background-color: #E3D8C0;
+}
+#js-playerPick_scissors {
+    background-color: #707D96;
+}
+#js-generalResult {
+    font-weight: bold;
+}
+#js-playerPick, #js-computerPick, #js-playerResult, #js-computerResult {
+    transition: .5s;
+}
+@media screen and (max-width: 1100px) {
+    body {
+        background-size: 150%;
+        background-position: 55% 0;
+    }
+}
