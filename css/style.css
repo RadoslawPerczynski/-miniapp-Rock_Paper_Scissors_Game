@@ -78,3 +78,18 @@ button i.fa {
         background-position: 55% 0;
     }
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-size: 150%;
+        background-position: 55% -40%;
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        background: #C0CCE2;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
