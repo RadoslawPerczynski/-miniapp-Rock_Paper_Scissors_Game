@@ -2,12 +2,15 @@
 <p>Old school hand game. Nowadays we know that choices are not random and they're depend on your psychology. Of course with this version you don’t even need a brain because computer picks 100% random choice. But... are you sure...? :)
 </p>
 
+
 ![rock paperscissors](https://user-images.githubusercontent.com/28759821/29362381-14ef667a-828c-11e7-8e0a-5b32597244d5.jpg)
+
 
 
 <ul>
   <li>Click here to use the <a href="https://radoslawperczynski.github.io/-miniapp-Rock_Paper_Scissors_Game/"> Live Demo </a></li>
 </ul>
+
 <hr>
 
 <h2>You know the rules: </h2>
